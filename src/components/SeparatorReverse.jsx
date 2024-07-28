@@ -27,6 +27,8 @@ const SeparatorReverse = () => {
       style={{
         backgroundImage: `url(${separatorReverse})`,
         backgroundSize: 'contain',
+        transform: 'rotate(2.5deg)', // Adjust the rotation as needed
+        transformOrigin: 'bottom left',
       }}
     ></div>
   );

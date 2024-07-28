@@ -20,6 +20,9 @@ import logoImage from './logo.png'
 import leftImage from './bg9.png'
 import bottomRightImage from './pepe.png'
 import chartImage from './chartImage.png'
+import aboutTitle from './aboutTitle.png'
+import largeImage from './largeImage.png'
+
 
 
 
@@ -51,7 +54,9 @@ export {
     leftImage,
     bottomRightImage,
     bg6,
-    chartImage
+    chartImage,
+    largeImage,
+    aboutTitle,
 
 
 }

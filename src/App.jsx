@@ -1,5 +1,5 @@
 
-import { Hero, About, Roadmap2,Roadmap3, About2,About3, Tokenomics, NewSection } from "./sections";
+import { Hero, About, Roadmap2,Roadmap3, About2,About3,About4, Tokenomics, NewSection } from "./sections";
 import VideoBackground from "./components/VideoBackground";
 import VideoBackground2 from "./components/VideoBackground2";
 
@@ -41,36 +41,35 @@ const App = () => {
   // }
 return(
   <main className="relative bg-[#000]" style={{ backgroundImage: `url(${mainbg})` }}>
-    <Nav />
+    {/* <Nav /> */}
    
 
   
 
 
-{/* 
+
     <VideoBackground >
       <Hero />
     </ VideoBackground >
     <Separator />
-    <VideoBackground2 >
-      <About />
-    </ VideoBackground2 >
-    <SeparatorReverse /> */}
-    <section className="xl:padding-l wide:padding-r padding-b bg-cover bg-center" style={{ backgroundImage: `url(${bgImage})` }}>
-      <Hero />
-    </section>
-    <Separator />
-    
-    <section className="w-full h-screen bg-cover bg-center " >    <Roadmap3 />   </section>
-    <SeparatorReverse />
-    <section className="w-full h-screen bg-cover bg-center " >    <About3 />   </section>
 
-    <Separator />
+  
+
+    <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${bgImage})` }}>
+      <Roadmap2 />
+    </section>
+    <SeparatorReverse />
+    
+    <section className="w-full h-screen bg-cover bg-center pb-10 " >    <About4/>   </section>
+    {/* <SeparatorReverse /> */}
+    {/* <section className="w-full h-screen bg-cover bg-center " >    <About3 />   </section> */}
+
+    {/* <Separator /> */}
 
     {/* <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><About2 /></section> */}
     
  
-    <section className="w-full h-screen bg-cover bg-center " >    <Chart />   </section>
+    {/* <section className="w-full h-screen bg-cover bg-center " >    <Chart />   </section> */}
 
     <section className=""><StickyFooter /></section>
   </main>
