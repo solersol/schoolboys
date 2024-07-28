@@ -22,6 +22,10 @@ import bottomRightImage from './pepe.png'
 import chartImage from './chartImage.png'
 import aboutTitle from './aboutTitle.png'
 import largeImage from './largeImage.png'
+import cardImage1 from './tg.png'
+import cardImage2 from './dex.png'
+import bottomLinks from './bottom.png'
+import findTitle from './findTitle.png'
 
 
 
@@ -57,6 +61,10 @@ export {
     chartImage,
     largeImage,
     aboutTitle,
+    cardImage1,
+    cardImage2,
+    bottomLinks,
+    findTitle,
 
 
 }

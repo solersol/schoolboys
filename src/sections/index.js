@@ -10,6 +10,8 @@ import Tokenomics from "./Tokenomics"
 import Roadmap2 from "./Roadmap2"
 import NewSection from "./NewSection"
 import Roadmap3 from "./Roadmap3"
+import Links from "./Links"
+
 
 
 
@@ -25,5 +27,6 @@ export{
     NewSection,
     Roadmap3,
     About3,
-    About4
+    About4,
+    Links,
 }
