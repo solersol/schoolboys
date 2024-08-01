@@ -47,8 +47,8 @@ return(
   
 
 
-    <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><About2 /></section>
-    {/* <VideoBackground >
+    {/* <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><About2 /></section> */}
+    <VideoBackground >
       <Hero />
     </ VideoBackground >
     <Separator />
@@ -63,7 +63,7 @@ return(
         <About4 />
       
         <Links />
-        <Join />*/}
+        <Join />
       
 
 
