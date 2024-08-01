@@ -63,11 +63,11 @@ return(
         <About4 />
       
         <Links />
-        <Join />
+        <Join />*/}
       
 
 
-    <section className=""><StickyFooter /></section> */}
+    <section className=""><StickyFooter /></section> 
   </main>
 );
 };
