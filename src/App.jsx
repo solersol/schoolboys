@@ -1,5 +1,5 @@
 
-import { Hero, About, Roadmap2,Roadmap3, About2,About3,About4,Links, NewSection } from "./sections";
+import { Hero, About, Roadmap2,Roadmap3, About2,About3,About4,Links, NewSection, Join } from "./sections";
 import VideoBackground from "./components/VideoBackground";
 import VideoBackground2 from "./components/VideoBackground2";
 
@@ -55,15 +55,16 @@ return(
 
   
 
-    <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${bgImage})` }}>
+    <section className="w-full h-screen bg-cover bg-center   " style={{ backgroundImage: `url(${bgImage})` }}>
       <Roadmap2 />
     </section>
     <SeparatorReverse />
     
-    <section className="w-full h-screen bg-cover bg-center pb-10 " >    <About4/>   </section>
-    {/* <section className="w-full min-h-screen bg-cover bg-center">
+        <About4 />
+      
         <Links />
-    </section> */}
+        <Join />
+      
     {/* <SeparatorReverse /> */}
     {/* <section className="w-full h-screen bg-cover bg-center " >    <About3 />   </section> */}
 

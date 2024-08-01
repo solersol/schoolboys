@@ -26,6 +26,10 @@ import cardImage1 from './tg.png'
 import cardImage2 from './dex.png'
 import bottomLinks from './bottom.png'
 import findTitle from './findTitle.png'
+import rd1 from './rd1.png'
+import rd2 from './rd2.png'
+import joinImage from './join.png'
+
 
 
 
@@ -65,6 +69,10 @@ export {
     cardImage2,
     bottomLinks,
     findTitle,
+    rd1,
+    rd2,
+    joinImage,
+
 
 
 }

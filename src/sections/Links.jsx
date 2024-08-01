@@ -3,34 +3,36 @@ import { findTitle, img1, img2, cardImage1, cardImage2, bottomLinks } from '../a
 
 const Links = () => {
   const cards = [
-    { title: "PUMPFUN", text: "BUY NOW", link: "https://example.com", image: {img2} },
-    { title: "TELEGRAM", text: "Join Now", link: "https://example.com", image: {cardImage1} },
-    { title: "X", text: "Join Now", link: "https://example.com", image: {img1} },
-    { title: "DEXSCREENER", text: "BUY NOW", link: "https://example.com", image: {cardImage2} }
+    { title: "PUMPFUN", text: "BUY NOW", link: "https://example.com", image: img2 },
+    { title: "TELEGRAM", text: "Join Now", link: "https://example.com", image: cardImage1 },
+    { title: "X", text: "Join Now", link: "https://example.com", image: img1 },
+    { title: "DEXSCREENER", text: "BUY NOW", link: "https://example.com", image: cardImage2 }
   ];
 
   return (
-    <section className="w-full min-h-screen bg-[#fffdd6] flex flex-col items-center py-20 mb-16 border-b-4 border-black">
+    <section className="w-full h-full  flex flex-col items-center pt-32 border-b-4 border-black">
       <img
         src={findTitle}
         alt="Small Image"
-        className="w-full max-w-screen-lg mb-8"
+        className="w-[350px] max-w-screen-lg mb-28 mx-auto"
       />
-      <div className="w-full max-w-screen-lg grid grid-cols-1 md:grid-cols-2 gap-8 px-4">
+      <div className="w-[550px] max-w-screen-lg grid grid-cols-1 md:grid-cols-2 gap-8 px-4">
         {cards.map((card, index) => (
           <a 
             href={card.link} 
             key={index} 
-            className="block bg-white border border-black rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 cursor-pointer"
+            className="block bg-white border-[4px] border-black rounded-3xl overflow-hidden transform transition-transform duration-300 hover:scale-125 cursor-pointer text-center"
           >
-            <img
-              src={card.image}
-              alt={card.title}
-              className="w-full"
-            />
+            <div className="flex justify-center">
+              <img
+                src={card.image}
+                alt={card.title}
+                className="w-[100px] max-w-xs py-6"
+              />
+            </div>
             <div className="p-4 text-center">
-              <h3 className="text-xl font-bold mb-2">{card.title}</h3>
-              <p className="text-sm">{card.text}</p>
+              <h3 className=" font-anton text-xl font-bold mb-8">{card.title}</h3>
+              <p className="font-anton text-sm mb-8">{card.text}</p>
             </div>
           </a>
         ))}
@@ -38,7 +40,7 @@ const Links = () => {
       <img
         src={bottomLinks}
         alt="Bottom Image"
-        className="w-full max-w-screen-lg mt-8"
+        className="w-1/3 max-w-screen-lg mt-56 bottom"
       />
     </section>
   );

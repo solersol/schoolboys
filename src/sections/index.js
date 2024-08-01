@@ -11,6 +11,8 @@ import Roadmap2 from "./Roadmap2"
 import NewSection from "./NewSection"
 import Roadmap3 from "./Roadmap3"
 import Links from "./Links"
+import Join from "./Join"
+
 
 
 
@@ -29,4 +31,5 @@ export{
     About3,
     About4,
     Links,
+    Join
 }
