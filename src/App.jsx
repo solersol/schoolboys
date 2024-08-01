@@ -47,8 +47,8 @@ return(
   
 
 
-
-    <VideoBackground >
+    <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><About2 /></section>
+    {/* <VideoBackground >
       <Hero />
     </ VideoBackground >
     <Separator />
@@ -65,17 +65,9 @@ return(
         <Links />
         <Join />
       
-    {/* <SeparatorReverse /> */}
-    {/* <section className="w-full h-screen bg-cover bg-center " >    <About3 />   </section> */}
 
-    {/* <Separator /> */}
 
-    {/* <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><About2 /></section> */}
-    
- 
-    {/* <section className="w-full h-screen bg-cover bg-center " >    <Chart />   </section> */}
-
-    <section className=""><StickyFooter /></section>
+    <section className=""><StickyFooter /></section> */}
   </main>
 );
 };

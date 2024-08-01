@@ -50,7 +50,7 @@ const About2 = () => {
 
   return (
     <section className="relative w-full h-screen bg-cover bg-center flex items-center justify-center">
-      <div className="text-center mb-[29rem]">
+      {/* <div className="text-center mb-[29rem]">
         <h1 ref={h1Ref} className="text-black text-[50px]  font-comic  transition-transform duration-1000 transform -translate-x-full opacity-0">
           JOIN $MYLO
         </h1>
@@ -62,7 +62,7 @@ const About2 = () => {
             JOIN $MYLO
           </button>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };

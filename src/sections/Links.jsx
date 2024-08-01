@@ -5,8 +5,8 @@ const Links = () => {
   const cards = [
     { title: "PUMPFUN", text: "BUY NOW", link: "https://example.com", image: img2 },
     { title: "TELEGRAM", text: "Join Now", link: "https://example.com", image: cardImage1 },
-    { title: "X", text: "Join Now", link: "https://example.com", image: img1 },
-    { title: "DEXSCREENER", text: "BUY NOW", link: "https://example.com", image: cardImage2 }
+    { title: "X", text: "Join Now", link: "https://x.com/SCHOOLBOYSOL", image: img1 },
+    { title: "DEXSCREENER", text: "BUY NOW", link: "", image: cardImage2 }
   ];
 
   return (
