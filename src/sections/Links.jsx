@@ -3,10 +3,10 @@ import { findTitle, img1, img2, cardImage1, cardImage2, bottomLinks } from '../a
 
 const Links = () => {
   const cards = [
-    { title: "PUMPFUN", text: "BUY NOW", link: "https://pump.fun/632sZSUCr4yGfJhGqB3kiBdS2NfvezmBgeVM94xQpump", image: img2 },
-    { title: "TELEGRAM", text: "Join Now", link: "https://t.me/schoolboysol", image: cardImage1 },
-    { title: "X", text: "Join Now", link: "https://x.com/SCHOOLBOYSOL", image: img1 },
-    { title: "DEXSCREENER", text: "BUY NOW", link: "https://pump.fun/632sZSUCr4yGfJhGqB3kiBdS2NfvezmBgeVM94xQpump", image: cardImage2 }
+    { title: "PUMPFUN", text: "BUY NOW", link: "https://pump.fun/", image: img2 },
+    { title: "TELEGRAM", text: "Join Now", link: "https://t.me/SchoolSolSchool", image: cardImage1 },
+    { title: "X", text: "Join Now", link: "https://t.me/SchoolSolSchool", image: img1 },
+    { title: "DEXSCREENER", text: "BUY NOW", link: "https://pump.fun/", image: cardImage2 }
   ];
 
   return (

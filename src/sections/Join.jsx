@@ -33,7 +33,7 @@ const Join = () => {
   return (
     <section className="w-full flex justify-center items-center bg-white py-24  ">
       <a
-        href="t.me" // Replace with your target URL
+        href="https://t.me/SchoolSolSchool" // Replace with your target URL
         target="_blank" // Opens the link in a new tab
         rel="noopener noreferrer" // Provides security benefits
         className="flex justify-center items-center" // Ensures link itself is a flex container

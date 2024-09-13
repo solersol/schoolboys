@@ -67,7 +67,7 @@ return(
       
 
 
-    <section className=""><StickyFooter /></section> 
+    {/* <section className=""><StickyFooter /></section>  */}
   </main>
 );
 };
